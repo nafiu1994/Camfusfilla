@@ -1,0 +1,91 @@
+
+#body, #page-wrapper{
+	width : 100%;
+	position: absolute;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media only screen and (min-width: 768px) {
+
+    
+    #body{
+    width : 80%; 
+    }
+    .center-div
+    {
+        position: absolute;
+        margin: auto;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0px;
+        background-color: #FFF;
+        border-radius: 3px;
+    }
+    
+    .dropdown-menu{
+        min-width: 250px !important;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    
+    #body{
+    width : 100%; 
+    }
+    .center-div
+    {
+        width: 100%;
+    }
+    footer > .row {
+    margin-right: 0px;
+    }
+}
+
+
+.content {
+    box-shadow: 1px 2px 5px #CACACA;;
+}
+
+
+.list-box, .wide-box {
+    clear: both;
+}
+
+.cat-box {
+    margin-bottom: 35px;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #F88C00;
+    -webkit-box-shadow: inset 1px 1px 2px rgba(155,155,155,0.4);
+}
+
+::-webkit-scrollbar-track {
+    background: #FFFFFF;
+    -webkit-box-shadow: inset 1px 1px 2px #E0E0E0;
+    border: 1px solid #D8D8D8;
+}
+
+::selection {
+    background: #F9A386;
+    color: #fff;
+    text-shadow: none;
+}
+
+

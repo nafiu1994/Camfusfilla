@@ -1,0 +1,102 @@
+#main-nav{
+    background: #222 url(../img/patterns/pattern-3.jpg);
+}
+#logo-main{
+    height: 100px;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+    background-color: inherit;
+    color:#ddd;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: white;
+  padding-left: 10px;
+  padding-right: 5px;
+  background-color: rgba(0,0,0,0.075);
+  overflow: hidden;
+  width: 100%;
+  height: 50px;
+  transition: .2s ease;
+}
+.mask:hover .overlay {
+  height: inherit;
+}
+@media only screen and (max-width: 767px)
+{
+    
+    .caption{
+        padding: 5px;
+    }
+    .overlay {
+      position: relative;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      color: #222;
+      padding-left: 10px;
+      padding-right: 5px;
+      background-color: rgba(0,0,0,0.005);
+      width: 100%;
+      height: inherit;
+      transition: .7s ease;
+    }
+}
+@media screen and (max-width: 768px) and (min-width: 426px){
+    #main-nav{
+        font-size: 8px;
+
+    }
+    #nav-title{
+        font-size: 13px !important;
+    }
+}
+@media screen and (max-width: 1024px) and (min-width: 769px){
+    #main-nav{
+        font-size: 12px;
+
+    }
+    #nav-title{
+        font-size: 20px !important;
+    }
+}
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+}
+#login-dp .help-block{
+    font-size:12px    
+}
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+#login-dp .social-buttons{
+    margin:12px 0    
+}
+#login-dp .social-buttons a{
+    width: 49%;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+.container{
+    width: 100%;
+}
+@media(max-width:768px){
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
+}
